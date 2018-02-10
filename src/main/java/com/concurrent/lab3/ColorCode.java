@@ -1,5 +1,6 @@
 package com.concurrent.lab3;
 
+@SuppressWarnings("WeakerAccess")
 public class ColorCode {
 
     private static final char CHAR = 27;
