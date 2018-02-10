@@ -1,4 +1,4 @@
 #!/bin/bash
 
 mvn package
-mvn exec:java -Dexec.mainClass="com.concurrent.lab3.Main"
+java -cp target/senate-bus-problem-1.0-SNAPSHOT-jar-with-dependencies.jar com/concurrent/lab3/Main
